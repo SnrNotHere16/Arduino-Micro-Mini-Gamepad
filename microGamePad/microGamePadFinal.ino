@@ -1,5 +1,4 @@
 #include <Keyboard.h>
-
 // These are used as indices to other arrays
 enum {
   //direction (4)
@@ -7,11 +6,13 @@ enum {
   W,
   S,
   D,
-  //Buttons (8)
+  //Buttons (6)
   U,
   J,
   I,
   K,
+  O,
+  L,
   //start and select (2)
   SELECT,
   START,
@@ -25,12 +26,14 @@ const int PINS[] = {
   3,  // W
   4,  // S
   5,  // D
-  14, // U
-  10, // J
-  16, // I
-  15, // K
-  9,  // SELECT
-  8,  // START
+  6, // U
+  7, // J
+  8, // I
+  9, // K
+  10, //O
+  14, //L
+  15,  // SELECT
+  16,  // START
 };
 
 // Maps button to keyboard key
@@ -39,10 +42,12 @@ const char KEYS[] = {
   'w', // RIGHT
   's',  // DOWN
   'd',  // LEFT
-  'u',             // A
-  'j',             // Z
-  'i',             // X
-  'k',             // S
+  'u',             // U
+  'j',             // J
+  'i',             // I
+  'k',             // K
+  'o',             // O
+  'l',             // L
   KEY_RETURN,      // SELECT
   ' ',             // START
 };
@@ -50,9 +55,6 @@ const char KEYS[] = {
 // Store previous state of keys
 bool STATES[NUM_KEYS];
 
-// Left and right LED pins
-#define LED0 7
-#define LED1 6
 
 // Initialize
 void setup() {
@@ -61,17 +63,11 @@ void setup() {
     pinMode(PINS[i], INPUT_PULLUP);
     STATES[i] = digitalRead(PINS[i]);
   }
-  pinMode(LED0, OUTPUT);
-  pinMode(LED1, OUTPUT);
 }
 
 // Main loop
 void loop() {
   bool state;
-  // Flash LEDs
-  const unsigned long t = millis();
-  digitalWrite(LED0, (t / 1000) % 2 == 0 ? HIGH : LOW);
-  digitalWrite(LED1, (t / 1000) % 2 == 0 ? LOW : HIGH);
   // Process each key
   for (int i = 0; i < NUM_KEYS; i++) {
     state = digitalRead(PINS[i]);
