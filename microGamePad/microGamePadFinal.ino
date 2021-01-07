@@ -13,6 +13,8 @@ enum {
   K,
   O,
   L,
+  P,
+  semi,
   //start and select (2)
   SELECT,
   START,
@@ -32,8 +34,10 @@ const int PINS[] = {
   9, // K
   10, //O
   14, //L
-  15,  // SELECT
-  16,  // START
+  15, //P
+  16, //;
+  0,  // SELECT
+  1,  // START
 };
 
 // Maps button to keyboard key
@@ -48,6 +52,8 @@ const char KEYS[] = {
   'k',             // K
   'o',             // O
   'l',             // L
+  'p',             // P
+  ';',             //;
   KEY_RETURN,      // SELECT
   ' ',             // START
 };
