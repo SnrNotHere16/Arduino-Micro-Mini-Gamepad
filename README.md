@@ -14,3 +14,5 @@ device then steam should be able to register the commands properly.
 Here is an image of me using the gamepad on Street Fighter 30th Anniversary Collection
 <img src = "Microgamepadimages/StreetfighterKeyboardLayout.jpg" width= "500" >
 Here is an image of the keys assigned to each button though I may change this in the future. 
+https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePad/microGamePadFinal.ino
+I decided to incorporate a keyboard that uses the arrow keys instead of "awsd" as well. 
