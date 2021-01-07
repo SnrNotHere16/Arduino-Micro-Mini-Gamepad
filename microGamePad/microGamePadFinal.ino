@@ -1,3 +1,4 @@
+//The following keyboard registers a total of 14 keys. 
 #include <Keyboard.h>
 // These are used as indices to other arrays
 enum {
@@ -6,7 +7,7 @@ enum {
   W,
   S,
   D,
-  //Buttons (6)
+  //Buttons (8)
   U,
   J,
   I,
