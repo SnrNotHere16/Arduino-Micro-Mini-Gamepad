@@ -23,6 +23,7 @@ https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePa
 
 # Breadboard Schematic
 <img src = "Microgamepadimages/MicroProFightStickSchematicBreadboard_bb.jpg" width= "500" >
+
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
 https://github.com/shveytank/Arduino-Game-Controller
