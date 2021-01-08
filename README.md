@@ -12,9 +12,11 @@ device then steam should be able to register the commands properly.
 # Arduino-Micro-Mini-Keyboard on Steam 
 <img src = "Microgamepadimages/JoystickandGame.jpg" width= "500" >
 Here is an image of me using the gamepad on Street Fighter 30th Anniversary Collection
+<img src = "Microgamepadimages/LayoutASWD.jpg" width= "500" >
 <img src = "Microgamepadimages/StreetfighterKeyboardLayout.jpg" width= "500" >
 Here is an image of the keys assigned to each button though I may change this in the future.  <br /> 
 https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePad/microGamePadFinal.ino <br /> 
+<img src = "Microgamepadimages/LayoutWDirectionalKeys.jpg" width= "500" >
 <img src = "Microgamepadimages/keyboardWarrowkeys.jpg" width= "500" >
 I decided to incorporate a keyboard that uses the arrow keys instead of "awsd" as well. <br /> 
 https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePad/microGamePadFinalWdirectionalkeys.ino
