@@ -22,6 +22,7 @@ I decided to incorporate a keyboard that uses the arrow keys instead of "awsd" a
 https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePad/microGamePadFinalWdirectionalkeys.ino
 
 # Breadboard Schematic
+<img src = "Microgamepadimages/MicroProFightStickSchematicBreadboard_bb.jpg" width= "500" >
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
 https://github.com/shveytank/Arduino-Game-Controller
