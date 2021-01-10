@@ -21,8 +21,10 @@ https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePa
 I decided to incorporate a keyboard that uses the arrow keys instead of "awsd" as well. <br /> 
 https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePad/microGamePadFinalWdirectionalkeys.ino
 
-# Breadboard Schematic
+# Breadboard prototype
 <img src = "Microgamepadimages/MicroProFightStickSchematicBreadboard_bb.jpg" width= "500" >
+
+# Schematic 
 
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
