@@ -25,6 +25,7 @@ https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePa
 <img src = "Microgamepadimages/MicroProFightStickSchematicBreadboard_bb.jpg" width= "500" >
 
 # Schematic 
+<img src = "Microgamepadimages/MicroProFightStickSchematic.JPG" width= "500" >
 
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
