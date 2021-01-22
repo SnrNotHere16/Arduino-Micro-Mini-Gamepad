@@ -25,8 +25,8 @@ enum {
 
 // Maps button index to digital pin
 const int PINS[] = {
-  2,  // Right
-  3,  // Left
+  2,  // LEFT
+  3,  // RIGHT
   4,  // Up
   5,  // Down
   6, // A
@@ -43,8 +43,8 @@ const int PINS[] = {
 
 // Maps button to keyboard key
 const char KEYS[] = {
-  KEY_RIGHT_ARROW, // RIGHT
-  KEY_LEFT_ARROW,  // LEFT
+  KEY_LEFT_ARROW, // LEFT
+  KEY_RIGHT_ARROW,  // RIGHT
   KEY_UP_ARROW,    // UP
   KEY_DOWN_ARROW,  // DOWN
   'a',             // A
