@@ -30,6 +30,16 @@ https://github.com/SnrNotHere16/Arduino-Micro-Mini-Gamepad/blob/main/microGamePa
 # PCB Design (Circuit Maker)
 <img src = "Microgamepadimages/MicroProFightStickPCB2D.JPG" width= "500" >
 <img src = "Microgamepadimages/MicroProFightStickPCB3D.JPG" width= "500" >
+<br /> 
+
+# First PCB image
+I sent the gerber files from circuit maker to JLCPCB and got my board printed out and shipped. 
+<img src = "Microgamepadimages/FirstPCBimage.jpg" width= "500" >
+<img src = "Microgamepadimages/FirstPCBsimage.jpg" width= "500" >
+<img src = "Microgamepadimages/FirstPCBSoldered.jpg" width= "500" >
+<img src = "Microgamepadimages/FirstPCBImageOneButtonTest.jpg" width= "500" >
+<img src = "Microgamepadimages/FirstPCBimageConnection.jpg" width= "500" >
+
 
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
