@@ -44,6 +44,3 @@ I sent the gerber files from circuit maker to JLCPCB and got my board printed ou
 # Help 
 https://www.youtube.com/watch?v=U0oaebN8pbc <br />
 https://github.com/shveytank/Arduino-Game-Controller
-
-# NEW IMAGE 
-<img src = "Microgamepadimages/keyboardWarrowkeys.jpg" width= "500" >
